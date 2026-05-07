@@ -86,6 +86,7 @@
             opacity: 0;
             transform: translateY(10px);
             transition: all 0.3s ease;
+            white-space:normal;
         }
 
         .char.visible {
@@ -94,7 +95,9 @@
         }
 
         .char.space {
+            display: inline-block;
             width: 0.35em;
+            white-space: pre-wrap;
         }
 
         .heart {
